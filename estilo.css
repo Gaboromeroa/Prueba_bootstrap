@@ -1,0 +1,101 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color:#373737;
+    margin: auto;
+}
+
+.header{
+    height:147px;
+    background: #303030;
+    
+}
+.home{
+
+    color: #00E0FF;
+    font-size: 30px;
+    padding-right: 2em;
+}
+.home2{
+    font-size: 48px;
+    padding-left: 0px;
+}
+
+.logo{
+    width: 250px;
+    height: 147px;
+    padding-left: 1.5em;
+    padding-top: 1em;
+    
+}
+.sombra{
+-webkit-box-shadow: 15px 15px 19px 7px rgba(84,45,84,0.58);
+-moz-box-shadow: 15px 15px 19px 7px rgba(84,45,84,0.58);
+box-shadow: 15px 15px 19px 7px rgba(84,45,84,0.58);
+
+}
+.casa{
+    width: 90px;
+    height: 90px;
+    
+}
+.css_html{
+    width: 348px;
+    height: 225px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+.presentacion{
+    padding-top: 12px;
+    margin-left: 60px !important; 
+    height: 200px;
+    width: 988px !important;
+    background: #303030;
+    color: white;
+    border-radius: 20px;
+    font-size: 48px;
+    padding-left: 30px;
+    line-height: 1.1;
+
+}
+.estoy{
+    font-size: 25px;
+}
+.gabriel_azul{
+    color: #00E0FF;
+}
+.habilidades{
+    font-size: 48px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 700px;
+    line-height: 59px;
+    font-weight: bold
+}
+
+.lista{
+    padding-left: 87px;
+    font-size: 30px;
+}
+.libro{
+    margin-left: 80px;
+}
+
+@media only screen and (max-width: 1174px) {
+
+.presentacion{
+    font-size: 30px;
+}
+  }
+
+@media only screen and (max-width: 767px) {
+
+      .logo{
+        margin:auto;
+        display:block;
+      }
+      .presentacion{
+        margin:auto;
+        display:block
+      }
+    }
